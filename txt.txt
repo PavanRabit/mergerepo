@@ -6,13 +6,12 @@ public with sharing class ArithmaticOperations{
     public ArithmaticOperations(){
     }
     
-    //Addition of Two Numbers
     public Integer AddTwoNumbers(Integer pNumber1, Integer pNumber2){
         return pNumber1 + pNumber2;
     }
     
-    //Subtraction of Two Numbers
-    public Integer SubtractTwoNumbers(Integer pNumber1, Integer pNumber2){
-        return pNumber1 - pNumber2;
+    //Product of Two Numbers
+    public Integer MultiplyTwoNumbers(Integer pNumber1, Integer pNumber2){
+        return pNumber1 * pNumber2;
     }
 }
