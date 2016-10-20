@@ -1,0 +1,18 @@
+// Version 1.0
+// Developed on FeatureOne by Developer1
+public with sharing class ArithmaticOperations{
+
+    //Default Constructor
+    public ArithmaticOperations(){
+    }
+    
+    //Addition of Two Numbers
+    public Integer AddTwoNumbers(Integer pNumber1, Integer pNumber2){
+        return pNumber1 + pNumber2;
+    }
+    
+    //Subtraction of Two Numbers
+    public Integer SubtractTwoNumbers(Integer pNumber1, Integer pNumber2){
+        return pNumber1 - pNumber2;
+    }
+}
